@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `rbingenieriaform`.`consultas` (
   `nombre` VARCHAR(50) NOT NULL,
   `apellido` VARCHAR(50) NOT NULL,
   `email` VARCHAR(100) NOT NULL,
-  `consultascol` VARCHAR(500) NOT NULL,
+  `comentario` VARCHAR(500) NOT NULL,
   PRIMARY KEY (`idconsultas`))
 ENGINE = InnoDB;
 

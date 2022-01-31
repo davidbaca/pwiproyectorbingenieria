@@ -1,5 +1,5 @@
 /* const knex = require('../db/config'); */
-const nodemailer = require('nodemailer');
+/* const nodemailer = require('nodemailer'); */
 
 
 const inicio = (req, res) => {

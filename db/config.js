@@ -15,7 +15,7 @@
 knex.schema.hasTable('consultas').then(function(exists) {
     if (!exists) {
         return knex.schema.createTable('consultas', function(t) {
-            t.increments('idCliente').primary();
+            t.increments('idconsultas').primary();
             t.string('nombre', 50);
             t.string('apellido', 50);
             t.string('email', 100);
