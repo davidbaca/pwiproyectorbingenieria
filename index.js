@@ -5,7 +5,7 @@ const app = express();
 const dotenv = require('dotenv');                   
 const PORT = process.env.PORT || 3000;
 
-//Connexión a la base de datos
+//Conexión a la base de datos
 //const { connection } = require('./DB/config');
 
 //Configuración de los middlewares
